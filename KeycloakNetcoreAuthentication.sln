@@ -1,0 +1,92 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeycloakIdentityModel", "src\KeycloakIdentityModel\KeycloakIdentityModel.csproj", "{73CB0610-9107-4129-969C-DA9A27B4A17B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeycloakApp", "samples\KeycloakApp\KeycloakApp.csproj", "{DE6786AC-8872-433F-978E-69E91E2A7E33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeycloakIdentityMiddleware", "src\KeycloakIdentityMiddleware\KeycloakIdentityMiddleware.csproj", "{3E20AA39-F08A-454A-909E-A2B925D9D38C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeycloakClient", "samples\KeycloakClient\KeycloakClient.csproj", "{E22509E9-34F6-43B2-AA31-CF74EC1A8AF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeycloakROPCHelper", "src\KeycloakROPCHelper\KeycloakROPCHelper.csproj", "{B3BBC743-6BE0-4FD0-8C88-D3B7A6D5504E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Owin.Security.Keycloak", "src\Owin.Security.Keycloak\Owin.Security.Keycloak.csproj", "{16EDD97E-727A-4366-BF79-629295A162D1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{199C28E0-FAC8-4491-929F-DA0EEB1E1D7F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{37F9CEA0-098F-4A7F-85F7-2B2271FA5CDA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{62142401-C61C-4B0E-8BFE-1AE243C0AD09}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OwinApp", "samples\OwinApp\OwinApp.csproj", "{4D929449-3C9B-4A56-BCA8-F62AC0566A64}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Final|Any CPU = Final|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{73CB0610-9107-4129-969C-DA9A27B4A17B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73CB0610-9107-4129-969C-DA9A27B4A17B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73CB0610-9107-4129-969C-DA9A27B4A17B}.Final|Any CPU.ActiveCfg = Release|Any CPU
+		{73CB0610-9107-4129-969C-DA9A27B4A17B}.Final|Any CPU.Build.0 = Release|Any CPU
+		{73CB0610-9107-4129-969C-DA9A27B4A17B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73CB0610-9107-4129-969C-DA9A27B4A17B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE6786AC-8872-433F-978E-69E91E2A7E33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE6786AC-8872-433F-978E-69E91E2A7E33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE6786AC-8872-433F-978E-69E91E2A7E33}.Final|Any CPU.ActiveCfg = Release|Any CPU
+		{DE6786AC-8872-433F-978E-69E91E2A7E33}.Final|Any CPU.Build.0 = Release|Any CPU
+		{DE6786AC-8872-433F-978E-69E91E2A7E33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE6786AC-8872-433F-978E-69E91E2A7E33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E20AA39-F08A-454A-909E-A2B925D9D38C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E20AA39-F08A-454A-909E-A2B925D9D38C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E20AA39-F08A-454A-909E-A2B925D9D38C}.Final|Any CPU.ActiveCfg = Release|Any CPU
+		{3E20AA39-F08A-454A-909E-A2B925D9D38C}.Final|Any CPU.Build.0 = Release|Any CPU
+		{3E20AA39-F08A-454A-909E-A2B925D9D38C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E20AA39-F08A-454A-909E-A2B925D9D38C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E22509E9-34F6-43B2-AA31-CF74EC1A8AF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E22509E9-34F6-43B2-AA31-CF74EC1A8AF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E22509E9-34F6-43B2-AA31-CF74EC1A8AF6}.Final|Any CPU.ActiveCfg = Release|Any CPU
+		{E22509E9-34F6-43B2-AA31-CF74EC1A8AF6}.Final|Any CPU.Build.0 = Release|Any CPU
+		{E22509E9-34F6-43B2-AA31-CF74EC1A8AF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E22509E9-34F6-43B2-AA31-CF74EC1A8AF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3BBC743-6BE0-4FD0-8C88-D3B7A6D5504E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3BBC743-6BE0-4FD0-8C88-D3B7A6D5504E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3BBC743-6BE0-4FD0-8C88-D3B7A6D5504E}.Final|Any CPU.ActiveCfg = Release|Any CPU
+		{B3BBC743-6BE0-4FD0-8C88-D3B7A6D5504E}.Final|Any CPU.Build.0 = Release|Any CPU
+		{B3BBC743-6BE0-4FD0-8C88-D3B7A6D5504E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3BBC743-6BE0-4FD0-8C88-D3B7A6D5504E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16EDD97E-727A-4366-BF79-629295A162D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16EDD97E-727A-4366-BF79-629295A162D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16EDD97E-727A-4366-BF79-629295A162D1}.Final|Any CPU.ActiveCfg = Final|Any CPU
+		{16EDD97E-727A-4366-BF79-629295A162D1}.Final|Any CPU.Build.0 = Final|Any CPU
+		{16EDD97E-727A-4366-BF79-629295A162D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16EDD97E-727A-4366-BF79-629295A162D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D929449-3C9B-4A56-BCA8-F62AC0566A64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D929449-3C9B-4A56-BCA8-F62AC0566A64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D929449-3C9B-4A56-BCA8-F62AC0566A64}.Final|Any CPU.ActiveCfg = Release|Any CPU
+		{4D929449-3C9B-4A56-BCA8-F62AC0566A64}.Final|Any CPU.Build.0 = Release|Any CPU
+		{4D929449-3C9B-4A56-BCA8-F62AC0566A64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D929449-3C9B-4A56-BCA8-F62AC0566A64}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{73CB0610-9107-4129-969C-DA9A27B4A17B} = {199C28E0-FAC8-4491-929F-DA0EEB1E1D7F}
+		{DE6786AC-8872-433F-978E-69E91E2A7E33} = {37F9CEA0-098F-4A7F-85F7-2B2271FA5CDA}
+		{3E20AA39-F08A-454A-909E-A2B925D9D38C} = {199C28E0-FAC8-4491-929F-DA0EEB1E1D7F}
+		{E22509E9-34F6-43B2-AA31-CF74EC1A8AF6} = {37F9CEA0-098F-4A7F-85F7-2B2271FA5CDA}
+		{B3BBC743-6BE0-4FD0-8C88-D3B7A6D5504E} = {199C28E0-FAC8-4491-929F-DA0EEB1E1D7F}
+		{16EDD97E-727A-4366-BF79-629295A162D1} = {199C28E0-FAC8-4491-929F-DA0EEB1E1D7F}
+		{4D929449-3C9B-4A56-BCA8-F62AC0566A64} = {37F9CEA0-098F-4A7F-85F7-2B2271FA5CDA}
+	EndGlobalSection
+EndGlobal
